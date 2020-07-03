@@ -1,27 +1,23 @@
 {
-  "name": "cordova-support-google-services",
-  "version": "1.4.1",
-  "description": "Cordova plugin to add google service support",
-  "scripts": {
-    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml",
-    "postversion": "git push && git push --tags"
-  },
+  "name": "plugin-tip-tabla-periodica",
+  "version": "1.0.0",
+  "description": "Cordova plugin to add gradle",
   "cordova": {
-    "id": "cordova-support-google-services",
+    "id": "plugin-tip-tabla-periodica",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chemerisuk/cordova-support-google-services.git"
+    "url": "https://github.com/HeosS/plugin-tip-tabla-periodica.git"
   },
-  "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
+  "author": "HeosS <heossweb@gmail.com> (https://github.com/HeosS)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chemerisuk/cordova-support-google-services/issues"
+    "url": "https://github.com/HeosS/plugin-tip-tabla-periodica/issues"
   },
-  "homepage": "https://github.com/chemerisuk/cordova-support-google-services#readme",
+  "homepage": "https://github.com/HeosS/plugin-tip-tabla-periodica#readme",
   "keywords": [
     "cordova",
     "google services",
